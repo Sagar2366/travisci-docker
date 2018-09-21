@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Utekar@2366" | docker login -u "admin" --password-stdin
+docker pull hello-world
+
+
